@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dietéa</title>
   <!-- Enlace a Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style/style.css">
 </head>
-<body>
+
+<body class="bg-light">
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="font-weight-bold navbar navbar-expand-lg navbar-dark bg__dietea--2 fixed-top">
     <a class="navbar-brand" href="#">Dietéa</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -31,7 +35,7 @@
   </nav>
 
   <!-- Carrusel de Imágenes -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide pt-4" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -64,25 +68,27 @@
       <div class="col-md-8">
         <h1>Bienvenido a Dietéa</h1>
         <p class="lead">Registra tus hábitos diarios y lleva un seguimiento de tu dieta.</p>
-        <p class="text font-italics">Comienza tu viaje hacia un estilo de vida más saludable. Dietéa te ayuda a establecer hábitos positivos y a mantener un registro de tu progreso diario. Descubre una forma más saludable de vivir y alcanza tus metas de bienestar.</p>
+        <p class="text font-italics">Comienza tu viaje hacia un estilo de vida más saludable. Dietéa te ayuda a
+          establecer hábitos positivos y a mantener un registro de tu progreso diario. Descubre una forma más saludable
+          de vivir y alcanza tus metas de bienestar.</p>
 
         <!-- Ejemplo de tarjetas -->
         <div class="card-deck">
-          <div class="card">
+          <div class="card shadow border-0 ">
             <img class="card-img-top" src="https://via.placeholder.com/300" alt="Imagen de la Tarjeta">
             <div class="card-body">
               <h5 class="card-title">Hábito 1</h5>
               <p class="card-text">Descripción del hábito 1.</p>
             </div>
           </div>
-          <div class="card">
+          <div class="card shadow border-0 ">
             <img class="card-img-top" src="https://via.placeholder.com/300" alt="Imagen de la Tarjeta">
             <div class="card-body">
               <h5 class="card-title">Hábito 2</h5>
               <p class="card-text">Descripción del hábito 2.</p>
             </div>
           </div>
-          <div class="card">
+          <div class="card shadow border-0 ">
             <img class="card-img-top" src="https://via.placeholder.com/300" alt="Imagen de la Tarjeta">
             <div class="card-body">
               <h5 class="card-title">Hábito 3</h5>
@@ -92,7 +98,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card">
+        <div class="card shadow border-0 mt-4">
           <div class="card-body">
             <h5 class="card-title">Iniciar Sesión</h5>
             <!-- Agrega aquí un formulario de inicio de sesión si es necesario -->
@@ -113,15 +119,22 @@
     </div>
   </div>
 
+
+
+
+
   <!-- Pie de página -->
   <footer class="bg-dark text-light text-center p-3 mt-4">
     <p>&copy; 2023 Dietéa</p>
   </footer>
 
   <!-- Enlace a Bootstrap JS y Popper.js (necesarios para ciertos componentes de Bootstrap) -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
 </body>
+
 </html>

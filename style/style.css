@@ -1,0 +1,15 @@
+.bg__dietea--2{
+    background-color: rgba(155, 155, 155, 0.856);
+    backdrop-filter: blur(15px);
+}
+
+/*.container-homepage {
+/*    margin-top: 80px; /* Margen superior para evitar la superposición con el navbar */
+/*    padding: 20px;
+/*}
+
+/*.card-homepage {
+/*    border: none; /* Sin bordes */
+/*    border-radius: 10px; /* Bordes redondeados */
+/*    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+/*}
