@@ -7,7 +7,6 @@
     border-radius: 25px;
     min-height: 200px;
     overflow: hidden;
-    /* Ajusta el valor según tus preferencias */
 }
 
 .height-100{
@@ -17,10 +16,11 @@
 .input_div--login{
     width: 100%;
     height: 100%;
-    border: none; /* No border for the input */
-    background: transparent; /* Make the background transparent */
+    border: none; 
+    background: transparent; 
     position: relative;
-    z-index: 2; /* Set a higher z-index for the input */
+    z-index: 2; 
+    font-size: 1.5em;
 }
 
 .input_div--login:focus{
@@ -30,9 +30,9 @@
 
 .labelLogin {
     position: absolute;
-    top: 30px; /* Add 'px' to specify the unit for the top position */
+    top: 30px; 
     font-size: 1.5em;
-    transition-duration: 0.4s; /* Specify the transition duration in seconds */
+    transition-duration: 0.4s; 
     color: rgb(199, 197, 197);
     text-shadow: 0 0 5px rgba(194, 194, 194, 0.151);
     left: 30px;

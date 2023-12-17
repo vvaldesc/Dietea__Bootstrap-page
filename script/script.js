@@ -12,7 +12,7 @@ const añadirRegistro = () => {
   for (const texto of campos) {
     let cajaInput = document.createElement("div");
     cajaInput.className =
-      "p-0 m-0 pl-3 border height-100 col-md-6 col-lg-12 d-flex align-items-center position-relative";
+      "p-4 m-0 pl-3 border height-100 col-md-6 col-lg-12 d-flex align-items-center position-relative";
     
       let nuevoInput = document.createElement("input");
     nuevoInput.className = "border-0 input_div--login";
