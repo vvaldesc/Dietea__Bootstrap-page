@@ -55,4 +55,37 @@
     text-shadow: 0 0 0;
 }
 
+.img_div--fotoPerfil{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.img_div--fotoPerfil--1{
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+}
+
+.img_div--fotoPerfil--2{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.div_div--histórico--scroll{
+    max-height: 260px;
+}
+
+.article_div--tamano{
+    min-height: 300px;
+    border: 1px solid red;
+}
+
+.td_tr--disponible{
+    background-color: rgb(107, 255, 107) !important;
+}
+
+.td_tr--no_disponible{
+    background-color: rgb(255, 107, 107) !important;
+}
 

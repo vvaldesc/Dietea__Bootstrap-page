@@ -4,54 +4,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Preguntas Frecuentes - Dietéa</title>
+  <title>Preguntas Frecuentes - Dietea</title>
   <!-- Enlace a Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="../style/normalize.css">
 </head>
 
 <body class="bg-light">
+  <div class="container mt-4">
 
   <!-- Navbar -->
-  <nav class="font-weight-bold navbar navbar-expand-lg navbar-dark bg__dietea--2 fixed-top">
-    <a class="navbar-brand" href="#">Dietéa</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Hábitos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Dietismo</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark bg__dietea--2 shadow rounded">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Dietea</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="calendario.html">Calendario</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="FAQ.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">Homepage</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Inicio de sesión</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
+  
+
+      <!-- Contenido principal -->
+      <div class="jumbotron bg-dark rounded p-4 shadow text-light mt-3">
+        <h1 class="display-4">Bienvenido a la sección de Preguntas Frecuentes (FAQ) de Dietea</h1>
+        <p class="lead">Aquí encontrarás respuestas a las preguntas más comunes sobre nuestro servicio. Estamos aquí para ayudarte 24/7.</p>
+      </div>
 
   <!-- Contenido principal -->
-  <div class="container mt-4">
     <div class="row">
       <div class="col-md-8">
         <h1>Preguntas Frecuentes</h1>
 
         <!-- Pregunta 1 -->
-        <div class="card mb-3">
+        <div class="card mb-3 border-0 shadow">
           <div class="card-body">
-            <h5 class="card-title">¿Cómo puedo empezar con Dietéa?</h5>
-            <p class="card-text">Para comenzar con Dietéa, simplemente regístrate en nuestra plataforma y sigue los pasos
+            <h5 class="card-title">¿Cómo puedo empezar con Dietea?</h5>
+            <p class="card-text">Para comenzar con Dietea, simplemente regístrate en nuestra plataforma y sigue los pasos
               para configurar tu perfil. Puedes empezar a registrar tus hábitos diarios y llevar un seguimiento de tu
               dieta desde el panel principal.</p>
+            <p class="card-text">Regístrate <a href="login.html">aquí</a>.</p>  
           </div>
         </div>
 
         <!-- Pregunta 2 -->
-        <div class="card mb-3">
+        <div class="card mb-3 border-0 shadow">
           <div class="card-body">
             <h5 class="card-title">¿Cómo añadir un nuevo hábito?</h5>
             <p class="card-text">Para añadir un nuevo hábito, dirígete a la sección de "Hábitos" en el menú de
@@ -61,7 +78,7 @@
         </div>
 
         <!-- Pregunta 3 -->
-        <div class="card mb-3">
+        <div class="card mb-3 border-0 shadow">
           <div class="card-body">
             <h5 class="card-title">¿Puedo cambiar mi contraseña?</h5>
             <p class="card-text">Sí, puedes cambiar tu contraseña desde la sección de "Configuración de la cuenta". Haz
@@ -73,40 +90,44 @@
         <!-- Puedes agregar más preguntas y respuestas según sea necesario -->
 
       </div>
-      <div class="col-md-4">
-        <!-- Aquí puedes dejar el formulario de inicio de sesión si es necesario -->
+      <aside class="col-md-4">
         <div class="card shadow border-0 mt-4">
           <div class="card-body">
-            <h5 class="card-title">Iniciar Sesión</h5>
+            <h5 class="card-title">Enlaces rápidos</h5>
             <!-- Agrega aquí un formulario de inicio de sesión si es necesario -->
-            <form>
-              <div class="form-group">
-                <label for="usuario">Usuario</label>
-                <input type="text" class="form-control" id="usuario" placeholder="Ingrese su usuario">
-              </div>
-              <div class="form-group">
-                <label for="contrasena">Contraseña</label>
-                <input type="password" class="form-control" id="contrasena" placeholder="Ingrese su contraseña">
-              </div>
-              <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
-            </form>
+              <a href="pages/login.html" class="btn btn-primary">Iniciar Sesión</a>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
 
+        <ul class="list-group mt-4">
+          <li class="list-group-item list-group-item-action"><a href="home.html" class="d-block w-100 text-dark text-decoration-none">Home</a></li>
+          <li class="list-group-item list-group-item-action"><a href="faq.html" class="d-block w-100 text-dark text-decoration-none">FAQ</a></li>
+          <li class="list-group-item list-group-item-action"><a href="consejos.html" class="d-block w-100 text-dark text-decoration-none">Consejos</a></li>
+          <li class="list-group-item list-group-item-action"><a href="#" class="d-block w-100 text-blue text-decoration-none">Noticias</a></li>
+          <li class="list-group-item list-group-item-action"><a href="#" class="d-block w-100 text-blue text-decoration-none">Eventos</a></li>
+          <li class="list-group-item list-group-item-action"><a href="#" class="d-block w-100 text-blue text-decoration-none">Galería</a></li>
+          <li class="list-group-item list-group-item-action"><a href="#" class="d-block w-100 text-blue text-decoration-none">Contacto</a></li>
+        </ul>
+
+        
+        <div class="card shadow mt-4">
+
+          <img src="#" class="img-fluid" alt="...">
+
+        </div>
+        </aside>
+    </div>
   <!-- Pie de página -->
   <footer class="bg-dark text-light text-center p-3 mt-4">
-    <p>&copy; 2023 Dietéa</p>
+    <p>&copy; 2023 Dietea</p>
   </footer>
+  </div>
+
+
 
   <!-- Enlace a Bootstrap JS y Popper.js (necesarios para ciertos componentes de Bootstrap) -->
-  <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
 </body>
 
